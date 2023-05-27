@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--fieldset boundary mai use hota hai aur field ko naam dene k liye legend tag ka use karte h-->
+    <fieldset>
+
+        <legend>Html Basic Form</legend>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        
+        <br/>
+        <br/>
+
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+
+
+        <br/>
+        <br/>
+
+        <!--dropdown select-->
+        <label for="choose">choose the disk</label>
+        <select name="item" id="choose">
+            <option value="ssd">SSD</option>
+            <option value="hdd">HDD</option>
+            <option value="pendrive">Pendrive</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <!--text area-->
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+
+        <br/>
+        <br/>
+        <label for="file">Upload file</label>
+        <input type="file" name="file" id="file">
+
+        <br/>
+        <br/>
+        <label for="date">Date</label>
+
+        <input type="date" name="date" id="date">
+
+        <br/>
+        <br/>
+        <label for="check1">Hindi</label>
+        <input type="checkbox" name="check1" id="check1">
+
+        <label for="check2">Hindi</label>
+        <input type="checkbox" name="check2" id="check2">
+
+        <br/>
+        <br/>
+        <input type="submit" value="Submit">
+    </form>
+    </fieldset>
+</body>
+</html>
